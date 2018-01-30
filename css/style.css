@@ -2,12 +2,32 @@ body {
   font-size: 24px;
 }
 
-ul {
+nav {
+  background: #444;
+  margin: 0;
+  overflow: hidden;
+  position: fixed;
+}
+
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-li a {
-  display: inline;
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: rgb(255, 255, 255);
+  background: rgb(108, 108, 108);
+  display: block;
+  line-height: 2em;
+  padding: 0.5em 0.5em;
+  text-decoration: underline;
+}
+
+nav ul li a:hover {
+  background: #335599
 }
