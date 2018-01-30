@@ -1,12 +1,7 @@
-body {
-  font-size: 24px;
-}
-
 nav {
   background: #444;
   margin: 0;
   overflow: hidden;
-  position: fixed;
 }
 
 nav ul {
@@ -30,4 +25,21 @@ nav ul li a {
 
 nav ul li a:hover {
   background: #335599
+}
+
+.headshot {
+  display: block;
+  height: 300px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+p {
+  text-align: center;
+}
+
+.footer {
+  font-size: 12px;
+  background: #444;
+  color: white;
 }
