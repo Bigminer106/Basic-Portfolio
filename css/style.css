@@ -1,21 +1,22 @@
 nav {
   background: #444;
-  margin: 0;
+  margin: 0 auto;
   overflow: hidden;
 }
 
 nav ul {
   list-style-type: none;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
 
 nav ul li {
   display: inline-block;
+  margin-left: 20px;
 }
 
 nav ul li a {
-  color: rgb(255, 255, 255);
+  color: white;
   background: rgb(108, 108, 108);
   display: block;
   line-height: 2em;
@@ -27,18 +28,47 @@ nav ul li a:hover {
   background: #335599
 }
 
+p {
+  text-align: center;
+}
+
+h2, ul {
+  margin: 0 auto;
+}
+
 .headshot {
   display: block;
   height: 300px;
   width: 400px;
   margin: 0 auto;
+  margin-top: 10px;
 }
 
-p {
-  text-align: center;
+.content {
+  padding: 20px;
+  padding-bottom: 14px;
 }
 
 .footer {
+  height: 50px;
+  width: 100%;
+  background: #444;
   font-size: 12px;
-  text-decoration: underline black;
+  color: white;
+  text-decoration: underline white;
+  padding-top: 10px;
+  margin-top: -50px;
+}
+
+.socialMedia {
+  float: right;
+  width: 325px;
+  height: 200px;
+  margin-top: 10px;
+  margin-right: 150px;
+}
+
+.icon {
+  height: 100px;
+  width: 100px;
 }
